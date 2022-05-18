@@ -1,0 +1,22 @@
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 10px 2vw;
+    z-index:999;
+    height: 80px;
+}
+
+.containerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan{
+    justify-self: end;
+    align-self: flex-end;
+    padding: 0 0 10px 10px;
+    font-style: italic;
+}

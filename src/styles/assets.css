@@ -1,0 +1,22 @@
+:root{
+    --color_primary: #F0572D;
+    --color_secondary: #191B1D;
+    --color_white: #fff;
+}
+
+.button{
+    width: 206px;
+    height: 40px;
+    text-decoration: none;
+    color: var(--color_primary);
+    border: 1px var(--color_primary)solid;
+    background-color: transparent;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.button--filled{
+    color: var(--color_white);
+    background-color: var(--color_primary);
+    
+}
