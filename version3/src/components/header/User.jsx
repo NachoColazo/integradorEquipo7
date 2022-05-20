@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from './Button.jsx'; 
+import Button from 'components/utils/Button.jsx'; 
 
 const User = ({ props }) => {
 

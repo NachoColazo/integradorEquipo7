@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color_primary);
+    width: 100vw;
+    color: #FFFFFF;
+    align-items: center;
+    height: 58px;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+footer .social_networks{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 15px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import "styles/assets.css"
+import "styles/base/assets.css"
 
 const Button = ({children, filled}) => {
     return (

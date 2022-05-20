@@ -2,6 +2,10 @@
     --color_primary: #F0572D;
     --color_secondary: #191B1D;
     --color_white: #fff;
+    --color_black: #000;
+
+   /*  FUENTES */
+    --size_24: 24px;
 }
 
 .button{
@@ -11,12 +15,12 @@
     color: var(--color_primary);
     border: 1px var(--color_primary)solid;
     background-color: transparent;
-    font-weight: 700;
+    font-weight: bold;
     border-radius: 6px;
 }
 
 .button--filled{
     color: var(--color_white);
     background-color: var(--color_primary);
-    
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.22));
 }
